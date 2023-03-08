@@ -1,6 +1,19 @@
 #ifndef MAIN_H
-#define MAIN_h
+#define MAIN_H
 
+/* This a header file containing declarations
+ * for prototype functions defined in the 0x08-recursion
+ * tasks and directory
+ * This is like creating my own library with declared functions
+ * The tasks defines  the functions
+ *
+ *
+ * enclosing the files  contentinbetween ifndef,define and endif,
+ * stops the compiler from processing the file twice if its included twice,
+ * if not so, this will cause an error
+ * */
+
+int _putchar(char c);
 void _puts_recursion(char *s);
 void _print_rev_recursion(char *s);
 int _strlen_recursion(char *s);
